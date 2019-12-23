@@ -5,6 +5,7 @@ import com.lb.server.WxServer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -55,5 +56,24 @@ public class TestController {
         } else {
             System.out.println("校验失败");
         }
+        ServletInputStream inputStream = request.getInputStream();
+        byte[] bytes = new byte[1024];
+        int len;
+        StringBuffer stringBuffer = new StringBuffer();
+        while ((len = inputStream.read(bytes)) != -1) {
+            stringBuffer.append(new String(bytes, 0, len));
+        }
+        System.out.println(stringBuffer.toString());
+    }
+
+    public void wxMessage(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        ServletInputStream inputStream = request.getInputStream();
+        byte[] bytes = new byte[1024];
+        int len;
+        StringBuffer stringBuffer = new StringBuffer();
+        while ((len = inputStream.read(bytes)) != -1) {
+            stringBuffer.append(new String(bytes, 0, len));
+        }
+        System.out.println(stringBuffer.toString());
     }
 }

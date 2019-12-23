@@ -4,6 +4,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 /*
  * @Author 李彪
  * @Description
@@ -21,7 +23,6 @@ public class WxServer {
      *@Date
      */
     /**
-     *
      * @param timestamp
      * @param nonce
      * @param signature
@@ -32,6 +33,7 @@ public class WxServer {
         Arrays.sort(strs);
         String str = strs[0] + strs[1] + strs[2];
         String mysign = sha1(str);
+        DigestUtils.sha1(str);
         return mysign.equalsIgnoreCase(signature);
     }
 
