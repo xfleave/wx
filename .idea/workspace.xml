@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a38512-f63e-4947-be78-835b24385bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/BaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/article/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/article/NewsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/image/ImageMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/music/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/music/MusicMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/text/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/video/VideoMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/entity/voice/VoiceMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lb/util/JuheDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com.lb/test/TestWx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lb/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lb/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lb/server/WxServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lb/server/WxServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lb/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lb/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lb/server/WxServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lb/server/WxServer.class" afterDir="false" />
-    </list>
+    <list default="true" id="47a38512-f63e-4947-be78-835b24385bec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +39,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lb/server/WxServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="569">
               <caret line="203" column="269" selection-start-line="203" selection-start-column="269" selection-end-line="203" selection-end-column="269" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -208,7 +189,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="894" />
     <option name="width" value="1040" />
     <option name="height" value="1047" />
@@ -410,7 +391,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577063337232</updated>
       <workItem from="1577063340585" duration="4193000" />
-      <workItem from="1577072873345" duration="29084000" />
+      <workItem from="1577072873345" duration="29742000" />
     </task>
     <servers />
   </component>
@@ -444,13 +425,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33277000" />
+    <option name="totallyTimeSpent" value="33935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,13 +440,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37960956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37960956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27874187" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27874187" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -760,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lb/server/WxServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="569">
           <caret line="203" column="269" selection-start-line="203" selection-start-column="269" selection-end-line="203" selection-end-column="269" />
           <folding>
             <element signature="imports" expanded="true" />
